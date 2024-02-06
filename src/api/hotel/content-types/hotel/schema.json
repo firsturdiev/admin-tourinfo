@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hotels",
+  "info": {
+    "singularName": "hotel",
+    "pluralName": "hotels",
+    "displayName": "Hotel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title_uz": {
+      "type": "string"
+    },
+    "title_ru": {
+      "type": "string"
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "info_uz": {
+      "type": "text"
+    },
+    "info_ru": {
+      "type": "text"
+    },
+    "info_en": {
+      "type": "text"
+    },
+    "address_uz": {
+      "type": "string"
+    },
+    "address_en": {
+      "type": "string"
+    },
+    "address_ru": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "phone_number": {
+      "type": "string",
+      "default": "+998"
+    },
+    "maps_url": {
+      "type": "text"
+    },
+    "directions_url": {
+      "type": "text"
+    },
+    "qr_code": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "seats": {
+      "type": "integer"
+    },
+    "rooms": {
+      "type": "integer"
+    }
+  }
+}
